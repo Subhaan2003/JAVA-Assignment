@@ -1,0 +1,12 @@
+public class Prob10
+{
+    public static void main(String [] args)
+{
+    int totalsellingprice=27500;
+    int profitonthem=(27500*20)/100;
+    int totalcostprice=totalsellingprice-profitonthem;
+    int totalitems=15;
+    int eachcostprice=totalcostprice/totalitems;
+    System.out.print("THE COST PRICE OF EACH ITEM IS"+eachcostprice);
+}
+}
