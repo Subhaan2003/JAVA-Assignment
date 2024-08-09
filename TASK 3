@@ -1,0 +1,13 @@
+public class Prob3
+{
+    public static void main(String [] args)
+{
+    int obtainedmarks=80+90+75+60+100;
+    int totalsubjects=5;
+    int averagemarks=obtainedmarks/totalsubjects;
+    int totalmarks=500;
+    System.out.println("The Average Marks Are"+averagemarks);
+    double percentagemarks=(obtainedmarks/totalmarks)*100;
+    System.out.println("The Percentage Marks Are"+percentagemarks);
+}
+}    
