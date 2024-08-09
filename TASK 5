@@ -1,0 +1,14 @@
+public class Prob5
+{
+   public static void main (String [] args)
+{
+   double arearectangle=36*36;
+   System.out.println("THE AREA OF RECTANGLE IS"+arearectangle);
+   double perrectangle=(36+36)*2;
+   System.out.println("THE PERIMETER OF RECTANGLE IS"+perrectangle);
+   double areacircle=3.14*36*36;
+   System.out.println("THE AREA OF CIRCLE IS"+areacircle);
+   double circcircle=2*3.14*36;
+   System.out.println("THE CIRCUMFERENCE OF CIRCLE IS"+circcircle);
+}
+}
