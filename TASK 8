@@ -1,0 +1,26 @@
+public class Prob8
+{
+    public static void main(String []args)
+{
+    int totalpop=80000;
+    int totalmen=(80000*52)/100;
+System.out.println("THE  MEN ARE"+totalmen);
+    int totalwm =(80000*48)/100;
+System.out.println("THE  WOMEN ARE"+totalwm);
+    int totalliteracy=(80000*48)/100;
+System.out.println("THE TOTALLITERATE  ARE"+ totalliteracy);
+    int menliteracy=(80000*35)/100;
+System.out.println("THE LITERATE MEN ARE"+menliteracy);
+    int literatewomen=48-35;
+System.out.println("THE LITERATE WOMEN ARE"+literatewomen);
+    int wmliteracy=(80000*literatewomen)/100;
+System.out.println("THE LITERATE WWOMEN ARE"+wmliteracy);
+    int totalilliteracy=100-48;
+    int menilliterate=totalmen-menliteracy;
+    int womenilliterate=totalwm-wmliteracy;
+    System.out.println("THE ILLITERATE MEN ARE"+menilliterate);
+    System.out.println("THE ILLITERATE WOMEN ARE"+womenilliterate);
+ }
+}   
+    
+    
