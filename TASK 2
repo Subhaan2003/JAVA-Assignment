@@ -1,0 +1,15 @@
+public class Prob2{
+    public static void main(String [] args)
+{   
+     int distancekm=261400000;
+     System.out.println("THE DISTANCE IS IN KM"+distancekm);
+     double distancemeter=distancekm/1000;
+     System.out.println("THE DISTANCE IS IN METER"+distancemeter);
+     double distancefeet=distancekm/3928;
+     System.out.println("THE DISTANCE IS IN FEET"+distancefeet);
+     double distanceinches=distancekm/39370;
+     System.out.println("THE DISTANCE IS IN INCHES"+distanceinches);
+     double distancecm=distancekm/100000;
+     System.out.println("THE DISTANCE IS IN CM"+distancecm);
+}
+}
