@@ -1,0 +1,10 @@
+public class Prob1{
+   public static void main(String [] args){
+   int basicsalary=105000;
+   int dearnessall=(basicsalary*40)/100;
+   int houseall   =(basicsalary*20)/100;
+   int grosssalary=basicsalary+dearnessall+houseall;
+   System.out.print("THE GROSS SALARY IS"+grosssalary);
+   
+  }
+}
