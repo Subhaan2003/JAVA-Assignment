@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class prob9 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the amount to be withdrawn (in hundreds): ");
+        int amount = scanner.nextInt();
+
+        if (amount % 10 != 0) {
+            System.out.println("Amount must be in multiples of 10.");
+            return;
+        }
+
+        int hundreds = amount / 100;
+        int remainingAmount = amount % 100;
+
+        int fifties = remainingAmount / 50;
+        remainingAmount %= 50;
+
+        int tens = remainingAmount / 10;
+
+        System.out.println("Number of 100 currency notes: " + hundreds);
+        System.out.println("Number of 50 currency notes: " + fifties);
+        System.out.println("Number of 10 currency notes: " + tens);
+    }
+}
