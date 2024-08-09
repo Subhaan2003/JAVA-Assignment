@@ -1,0 +1,13 @@
+public class Prob6 {
+    public static void main(String[] args) {
+        int base = 8;
+        int exponent = 12;
+        long result = 1; // Use long to handle large values
+
+        for (int i = 1; i <= exponent; i++) {
+            result *= base;
+        }
+
+        System.out.println(base + " raised to the power of " + exponent + " is: " + result);
+    }
+}
